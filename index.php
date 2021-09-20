@@ -13,7 +13,7 @@ print_r($resultado);
 //echo 'Você mora na: '. $resultado['logradouro'].','. $resultado['bairro'];
 }
 echo '
-    <form action="exemplo.php?post=ok" method="POST" class="">
+    <form action="index.php?post=ok" method="POST" class="">
     Informe seu CEP: <input type="text" name="cep"><input type="submit" value="Buscar">
     </form>
 ';
